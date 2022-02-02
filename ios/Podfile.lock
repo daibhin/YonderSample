@@ -316,6 +316,10 @@ PODS:
     - React-cxxreact (= 0.64.2)
     - React-jsi (= 0.64.2)
     - React-perflogger (= 0.64.2)
+  - Unflow (1.3.0)
+  - unflow-react-native (1.3.0):
+    - React-Core
+    - Unflow
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -369,6 +373,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - unflow-react-native (from `../node_modules/unflow-react-native`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -384,6 +389,7 @@ SPEC REPOS:
     - FlipperKit
     - libevent
     - OpenSSL-Universal
+    - Unflow
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -441,6 +447,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  unflow-react-native:
+    :path: "../node_modules/unflow-react-native"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -483,9 +491,11 @@ SPEC CHECKSUMS:
   React-RCTVibration: 24600e3b1aaa77126989bc58b6747509a1ba14f3
   React-runtimeexecutor: a9904c6d0218fb9f8b19d6dd88607225927668f9
   ReactCommon: 149906e01aa51142707a10665185db879898e966
+  Unflow: 79bcccea1bb760fe9dfee00856b1f15030cd245a
+  unflow-react-native: 890952cc1865bee4995730cde3f73afb7bc8e716
   Yoga: 575c581c63e0d35c9a83f4b46d01d63abc1100ac
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 2d936caf4d3de292774f849120125f2d94fd8ea0
+PODFILE CHECKSUM: e93fc6d9882e7617d34129d20ef6ce6ba7d80cf5
 
 COCOAPODS: 1.11.2
